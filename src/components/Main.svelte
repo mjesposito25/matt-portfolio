@@ -1,15 +1,15 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
-        {name: 'Secret Santa', icon: 'fa-solid fa-sleigh'},
-        {name: 'Revents', icon: 'fa-solid fa-calendar-day'},
-        {name: 'Miit', icon: 'fa-solid fa-handshake-simple'}
+        {name: 'Secret Santa', icon: 'fa-solid fa-sleigh', href: "/"},
+        {name: 'Revents', icon: 'fa-solid fa-calendar-day', href: "https://github.com/mjesposito25/revents2020course"},
+        {name: 'Miit', icon: 'fa-solid fa-handshake-simple', href: "https://github.com/mjesposito25/Miit-app"}
     ];
 
     let benefits = [
-        {name: 'college educated and always learning', description: 'description jfbhjivjicabnklb '},
-        {name: 'passionate about creating new things', description: 'description fdjbsahvughc vjgc fx g .bghgucrzsx'},
-        {name: 'an excellent communicator', description: 'drecription biyhcxreas6rtgknmn  td piknb hgcxrec 7gh ojv'}
+        {name: 'an excellent communicator', description: 'Exceptional communicator with a knack for clear and effective messaging'},
+        {name: 'passionate about new projects', description: 'Passionate about taking on fresh challenges and bringing your innovative ideas to life'},
+        {name: 'well educated', description: 'I hold a bachelor\'s degree in Computer Science from a top 70 engineering university which provides a strong foundation for my work and sets me apart from other freelancers'}
     ]
 </script>
 
@@ -23,11 +23,17 @@
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
         Hi! I'm <span class="poppins text-violet-400">Matt</span> Esposito
-        <br />Full Stack
-        <span class="poppins text-violet-400">Developer</span>
+        <div class="text-3xl sm:text-4xl md:text-5xl">
+            Full Stack
+            <span class="poppins text-violet-400">Developer</span>
+            <br /> & IT <span class="poppins text-violet-400">Consultant</span>
+        </div>
+        
       </h2>
-      <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400">favorite tech</span> includes [fill in]
+      <p class="text-2xl sm:text-3xl md:text-4xl">
+        Custom sites,
+        <br /><span class="text-violet-400">applications </span>
+        <br />and integrations
       </p>
       <a
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
@@ -54,19 +60,15 @@
             Curious to <span class="poppins text-violet-400">see</span> my work?
         </h3>
     </div>
-    <a href="/" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-        <i class="fa-regular fa-circle-play" />
-        <p>Watch the video</p>
-    </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
         <Step step={steps[0]}>
-            <p>Making secret santa easy <strong class="text-violet-400">texts directly</strong> to every participents phone!</p>
+            <p>Innovative Saas application in development, designed to <strong class="text-violet-400">transform</strong> the way you host a Secret Santa event into a seamless and enjoyable experience, all through the <strong class="text-violet-400">magic</strong> of text messaging. Simply input your participants' names and phone numbers, and let us handle the rest.</p>
         </Step>
         <Step step={steps[1]}>
-            <p>[To do]</p>
+            <p>Revents is proof-of-concept application for creating and planning <strong class="text-violet-400">events</strong>, meticulously crafted using the dynamic synergy of React and Firebase.</p>
         </Step>
         <Step step={steps[2]}>
-            <p>[To do]</p>
+            <p>Miit presents an exciting proof-of-concept <strong class="text-violet-400">networking</strong> application crafted with the powerful combination of Dotnet and Angular.</p>
         </Step>
     </div>
   </section>

@@ -5,10 +5,10 @@
     Connect with me &darr;
   </p>
   <dic class="flex flex-col gap-4 items-center justify-center">
-    <p><b class="pr-2">Email</b> matt@espositotech.com</p>
+    <p><b class="pr-2">Email</b> <a class="text-violet-400" href="mailto:matt@espositotech.com">matt@espositotech.com</a></p>
     <p>
       <b class="pr-2">GitHub</b>
-      <a class="text-violet-400" target="_blank" href="/">
+      <a class="text-violet-400" target="_blank" href="https://github.com/mjesposito25">
         mjesposito25<sup
           ><span class="text-xs scale-75 pl-0.5"
             ><i
@@ -20,7 +20,7 @@
     </p>
     <p>
       <b class="pr-2">LinkedIn</b>
-      <a class="text-violet-400" target="_blank" href="/">
+      <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/matt-espo/">
         Matthew Esposito<sup
           ><span class="text-xs scale-75 pl-0.5"
             ><i
